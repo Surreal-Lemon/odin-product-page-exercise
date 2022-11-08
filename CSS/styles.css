@@ -53,6 +53,7 @@ img {
 }
 
 .hero-text {
+  width: 60%;
   font-size: 2rem;
   color: #F9FAF8;
   display: flex;
@@ -60,3 +61,53 @@ img {
   flex-direction: column;
   padding-top: 3rem;  
 }
+
+.services-heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+}
+
+.services {
+  display: flex;
+  height: 12rem;
+  justify-content: space-around;
+  gap: 5rem;
+  padding-bottom: 6rem;
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30rem;
+  justify-content: center;
+}
+
+.quote p {
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 50rem;
+  
+}
+
+.quote b {
+  text-align: right;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: bold;
+  max-width: 50rem;
+}
+

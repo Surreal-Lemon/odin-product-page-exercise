@@ -99,7 +99,6 @@ img {
   font-style: italic;
   color: #1F2937;
   max-width: 50rem;
-  
 }
 
 .quote b {
@@ -111,3 +110,44 @@ img {
   max-width: 50rem;
 }
 
+.register {
+  background-color: #3882F6;
+  width: 50rem;
+  display: flex;
+  height: 6rem;
+  margin: 6rem auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  border-radius: 2rem;
+}
+
+.register p {
+  color: #E5E7EB;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.register button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border-color: #E5E7EB;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 1rem;
+}
+
+.footer {
+  background-color: #1F2937;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  color: #F9FAF8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
